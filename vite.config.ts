@@ -318,6 +318,7 @@ function serverStatusPlugin(): Plugin {
 
 export default defineConfig(() => {
   return {
+    base: process.env.VITE_BASE_PATH || (process.env.GITHUB_ACTIONS === 'true' ? '/My-mc.link/' : '/'),
     plugins: [react(), tailwindcss(), serverStatusPlugin()],
     resolve: {
       alias: {
