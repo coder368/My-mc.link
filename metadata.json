@@ -1,0 +1,6 @@
+{
+  "name": "My-MC SMP — Minecraft Server Dashboard",
+  "description": "Official 24/7 web portal for My-MC SMP with real-time uptime & latency telemetry, live player counts, Java & Bedrock crossplay connectivity, and Discord bot commands.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
