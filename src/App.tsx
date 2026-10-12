@@ -239,7 +239,7 @@ export default function App() {
         <section className="hero-section" id="dashboard">
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-dot" /> LIVE OPERATIONS / {new Date().getFullYear()}</div>
-            <h1>Know when<br /><em>your realm</em> is ready.</h1>
+            <h1><span>Know when</span><span className="hero-highlight">your realm</span><span>is ready.</span></h1>
             <p className="hero-lede">A clear, calm view of your Minecraft worlds. Check signal, players, and connection details before you load in.</p>
             <div className="hero-actions">
               <button className="primary-button" onClick={() => handleCopy(fullIp, 'hero-java-ip')}>

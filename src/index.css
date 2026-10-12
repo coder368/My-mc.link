@@ -121,3 +121,17 @@ main { position: relative; z-index: 2; }
 .quiet-button:hover, .copy-button:hover, .icon-button:hover { border-color: rgba(184,242,107,.32); }
 .status-card-foot strong, .hero-signal-bottom strong { color: var(--text); }
 @media (max-width: 640px) { .hero-copy h1 { letter-spacing: -.07em; } }
+
+/* Readability correction: keep texture in the background, never inside essential text. */
+.eyebrow, .section-kicker, .card-label, .section-count, .live-note, .signal-label {
+  background-image: none;
+  background-size: auto;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  text-shadow: none;
+  color: var(--faint);
+}
+.eyebrow, .signal-label, .live-note { color: var(--signal); }
+.hero-copy h1 { font-family: var(--sans); font-style: normal; letter-spacing: -.075em; }
+.hero-copy h1 > span { display: block; }
+.hero-copy h1 .hero-highlight { color: var(--signal); font-family: var(--sans); font-style: normal; font-weight: 800; letter-spacing: inherit; }
