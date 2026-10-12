@@ -98,7 +98,7 @@ main { position: relative; z-index: 2; }
 .signal-grid { opacity: .22; background-image: linear-gradient(rgba(184,242,107,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(184,242,107,.035) 1px, transparent 1px); background-size: 34px 34px; }
 .brand-mark { border-color: rgba(184,242,107,.34); background: rgba(184,242,107,.08); }
 .brand-mark i { background: var(--signal); box-shadow: 0 0 9px rgba(184,242,107,.5); }
-.eyebrow, .section-kicker, .card-label, .section-count, .live-note, .signal-label { background-image: radial-gradient(circle, var(--signal) 1px, rgba(184,242,107,.34) 1.4px, transparent 1.8px); background-size: 4px 4px; -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: none; }
+.eyebrow, .section-kicker, .card-label, .section-count, .live-note, .signal-label { background-image: none; background-size: auto; -webkit-background-clip: border-box; background-clip: border-box; color: var(--faint); text-shadow: none; }
 .eyebrow { color: var(--signal); }
 .hero-copy h1 { font-weight: 800; letter-spacing: -.08em; }
 .hero-copy h1 em { font-family: var(--display); font-style: italic; font-weight: 500; letter-spacing: -.07em; color: var(--signal); }
@@ -129,9 +129,9 @@ main { position: relative; z-index: 2; }
   -webkit-background-clip: border-box;
   background-clip: border-box;
   text-shadow: none;
-  color: var(--faint);
+  color: var(--faint) !important;
 }
-.eyebrow, .signal-label, .live-note { color: var(--signal); }
+.eyebrow, .signal-label, .live-note { color: var(--signal) !important; }
 .hero-copy h1 { font-family: var(--sans); font-style: normal; letter-spacing: -.075em; }
 .hero-copy h1 > span { display: block; }
 .hero-copy h1 .hero-highlight { color: var(--signal); font-family: var(--sans); font-style: normal; font-weight: 800; letter-spacing: inherit; }
