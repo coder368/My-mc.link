@@ -35,4 +35,4 @@ The app reads live server status through the existing service fallback chain. No
 
 ## Design direction
 
-The interface uses an ink, signal-jade, ember, and sky palette with Sora for interface typography and IBM Plex Mono for technical values. The visual language combines GitHub-like operational clarity with a premium mobile utility feel: thin signal lines, oversized status numerals, restrained surfaces, and short ease-out motion.
+The interface uses obsidian ink, Minecraft-inspired lime/copper/teal accents, Plus Jakarta Sans for the geometric UI, Bodoni Moda for a restrained editorial display accent, and IBM Plex Mono for technical values. The visual language combines GitHub-like operational clarity with a premium mobile utility feel: thin signal lines, oversized status numerals, restrained surfaces, and short ease-out motion.
